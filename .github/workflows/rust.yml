@@ -22,6 +22,8 @@ jobs:
           toolchain: stable
     - name: rust-rustfmt-check
       uses: mbrobbel/rustfmt-check@0.3.0
+      with:
+          token: ${{ secrets.GITHUB_TOKEN }}
     - name: cargo build
       uses: actions-rs/cargo@v1
       with:
