@@ -20,10 +20,13 @@ jobs:
       uses: actions-rs/toolchain@v1
       with:
           toolchain: stable
-    - name: rust-rustfmt-check
-      uses: mbrobbel/rustfmt-check@0.3.0
+    - name: rustfmt-check
+      uses: LoliGothick/rustfmt-check@v0.2
       with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          flags: --all
+          options: --manifest-path=Cargo.toml
+          args: --config-path=rustfmt.toml
     - name: cargo build
       uses: actions-rs/cargo@v1
       with:
