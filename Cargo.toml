@@ -1,0 +1,14 @@
+[package]
+name = "rust-skiplist"
+version = "0.0.1"
+description = "Rust language implementation of skiplist"
+documentation = "https://docs.rs/rust-skiplist"
+license = "Apache License 2.0"
+readme = "README.md"
+keywords = ["skiplist", "skipmap", "skipset"]
+authors = ["chenkun <chenkun_lws@126.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
