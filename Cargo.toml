@@ -5,7 +5,7 @@ description = "Rust language implementation of skiplist"
 documentation = "https://docs.rs/rust-skiplist"
 license = "Apache License 2.0"
 readme = "README.md"
-keywords = ["skiplist", "skipmap", "skipset"]
+keywords = ["skiplist", "skiplistmap", "skiplistset"]
 authors = ["chenkun <chenkun_lws@126.com>"]
 edition = "2018"
 
