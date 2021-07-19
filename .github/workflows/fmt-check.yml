@@ -27,8 +27,3 @@ jobs:
           flags: --all
           options: --manifest-path=Cargo.toml
           args: --config-path=rustfmt.toml
-    - name: cargo check
-      uses: actions-rs/cargo@v1
-      with:
-          command: check
-          args: --verbose
